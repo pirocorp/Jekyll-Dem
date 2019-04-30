@@ -1,0 +1,17 @@
+---
+layout: site
+title: Blog
+permalink: /blog/
+---
+
+<header>
+    <h2>Blog</h2>
+</header>
+
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>

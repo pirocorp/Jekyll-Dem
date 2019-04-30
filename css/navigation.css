@@ -1,0 +1,66 @@
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav li {
+    list-style: none outside;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    color: purple;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav > ul > li:first-child a {
+    padding-left: 0;
+}
+
+nav li {
+    position: relative;
+}
+
+nav li:hover > ul {
+    display: block;
+
+    position: absolute;
+    top: 100%; left: 0;
+
+    width: 15rem;
+
+    background: #FFF;
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.5);
+
+    z-index: 2000;
+}
+
+nav li.sub-menu a {
+    display: flex;
+    align-items: center;
+}
+
+nav li.sub-menu > a::after {
+    display: block;
+    content: '\f0d7';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-left: 0.4rem;
+}
+
+nav.main {
+
+}

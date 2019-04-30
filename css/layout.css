@@ -1,0 +1,15 @@
+.site-header,
+.site-footer,
+.site-content {
+    padding: 2rem;
+}
+
+.header-top,
+.header-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+

@@ -1,0 +1,16 @@
+form {
+    
+}
+
+input[type="text"] {
+    display: block;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 0.3rem;
+    padding: 0.5em 1.2em;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #090;
+}

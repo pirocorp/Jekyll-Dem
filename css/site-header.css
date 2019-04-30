@@ -1,0 +1,36 @@
+.site-header p {
+    margin: 0;
+}
+
+.header-top {
+    padding-bottom: 1.5rem;
+}
+
+.site-branding {
+    margin-right: auto;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.site-description {
+    opacity: 0.7;
+    font-style: italic;
+}
+
+.site-header form.search input.button {
+    display: none;
+}
+
+.site-header form.search input[name="search"] {
+}
+
+body.post .site-header {
+    border-bottom: 2px solid #000;
+}
+
+body.page .site-header {
+    border-bottom: 2px solid red;
+}
